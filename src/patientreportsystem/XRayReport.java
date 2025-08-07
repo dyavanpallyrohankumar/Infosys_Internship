@@ -1,5 +1,10 @@
 package patientreportsystem;
 
-public class XRayReport {
+public class XRayReport extends PatientReport {
 
+	@Override
+	void patientReportBody() {
+		System.out.println("Chest XRAY: No abnormal detedted");
+		System.out.println("Impression:normal Study");
+	}
 }
