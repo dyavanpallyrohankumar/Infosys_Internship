@@ -13,7 +13,7 @@
     # IDE files (e.g., IntelliJ IDEA, Eclipse)
     .idea/
     *.iml
-    .project
+
     .classpath
     .settings/
 
