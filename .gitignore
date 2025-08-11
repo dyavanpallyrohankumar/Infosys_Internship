@@ -1,0 +1,25 @@
+    # Compiled class files
+    *.class
+
+    # Jar, War, Ear files
+    *.jar
+    *.war
+    *.ear
+
+    # Maven and Gradle build directories
+    /target/
+    /build/
+
+    # IDE files (e.g., IntelliJ IDEA, Eclipse)
+    .idea/
+    *.iml
+    .project
+    .classpath
+    .settings/
+
+    # Log files
+    *.log
+
+    # Operating system specific files
+    .DS_Store
+    Thumbs.db
