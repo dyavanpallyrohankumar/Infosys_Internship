@@ -13,15 +13,111 @@ This is a Java application developed using the Eclipse IDE.
 
 ## 📁 Project Structure
 ```
-Java-Training/
-├── src/
-│    └── [packages]/ # Java packages
-├── lib/ # Optional: External libraries
-├── bin/ # Compiled .class files (auto-generated)
-└── README.md # Project documentation
-
-
-```
+├── 📁 Java Training/
+      ├── 📁 .git/ 🚫 (auto-hidden)
+      ├── 📁 .settings/ 🚫 (auto-hidden)
+      ├── 📁 bin/ 🚫 (auto-hidden)
+      ├── 📁 src/
+      │   ├── 📁 abstraction/
+      │   │   └── ☕ Abstraction.java
+      │   ├── 📁 backtracking/
+      │   │   ├── ☕ SudokuBoard.java
+      │   │   └── ☕ Suduko_solver.java
+      │   ├── 📁 bankapplicationexceptionhandling/
+      │   │   ├── ☕ AccountLockedException.java
+      │   │   ├── ☕ Application.java
+      │   │   ├── ☕ BankingService.java
+      │   │   ├── ☕ InSufficientBalanceException.java
+      │   │   ├── ☕ InvalidCredintals.java
+      │   │   └── ☕ InvalidOperatorException.java
+      │   ├── 📁 collection_framework/
+      │   │   ├── 📁 Stack/
+      │   │   │   └── ☕ PatientFormDemo.java
+      │   │   ├── ☕ PatientBase.java
+      │   │   ├── ☕ ShoppingCart.java
+      │   │   └── ☕ Stack_implementaions.java
+      │   ├── 📁 cricketGameSimulationUsingInheritance/
+      │   │   ├── ☕ Batsman.java
+      │   │   ├── ☕ Bowler.java
+      │   │   ├── ☕ Crickter.java
+      │   │   ├── ☕ Main.java
+      │   │   └── ☕ WicketKeeper.java
+      │   ├── 📁 db/
+      │   │   └── ☕ DBconnection.java
+      │   ├── 📁 exceptionhandling/
+      │   │   ├── ☕ AE2.java
+      │   │   ├── ☕ Aioob.java
+      │   │   ├── ☕ ArthematicException.java
+      │   │   ├── ☕ CustomException.java
+      │   │   ├── ☕ ExceptionHandlingFinally.java
+      │   │   ├── ☕ IOexception.java
+      │   │   ├── ☕ IlligalException.java
+      │   │   ├── ☕ NP3.java
+      │   │   ├── ☕ NPE1.java
+      │   │   ├── ☕ NPE2.java
+      │   │   ├── ☕ Runtimeexception.java
+      │   │   ├── ☕ SQLexception.java
+      │   │   ├── ☕ ThrowIOexception.java
+      │   │   └── ☕ test.java
+      │   ├── 📁 inheritance/
+      │   │   ├── ☕ MethodOverloading.java
+      │   │   └── ☕ MultilevelInheritance.java
+      │   ├── 📁 interfaceProjects/
+      │   │   ├── ☕ Main.java
+      │   │   └── ☕ SmartHomeController.java
+      │   ├── 📁 logics/
+      │   │   ├── ☕ Factorial.java
+      │   │   ├── ☕ LandSofArray.java
+      │   │   ├── ☕ LongestCommonSubsequence.java
+      │   │   ├── ☕ Palindrome.java
+      │   │   ├── ☕ PrimeNo.java
+      │   │   ├── ☕ RemoveElement.java
+      │   │   ├── ☕ ReverseString.java
+      │   │   ├── ☕ SortOfZero.java
+      │   │   └── ☕ SumofDigits.java
+      │   ├── 📁 maths/
+      │   │   ├── ☕ Average.java
+      │   │   └── ☕ Calculator.java
+      │   ├── 📁 overriding/
+      │   │   └── ☕ Methodoverriding.java
+      │   ├── 📁 patientreportsystem/
+      │   │   ├── ☕ BloodReport.java
+      │   │   ├── ☕ Main.java
+      │   │   ├── ☕ PatientReport.java
+      │   │   └── ☕ XRayReport.java
+      │   ├── 📁 polymorphism/
+      │   │   └── ☕ safeDownCasting.java
+      │   ├── 📁 remaning/
+      │   │   ├── ☕ CustomerShop.java
+      │   │   ├── ☕ Do_while.java
+      │   │   ├── ☕ Enums.java
+      │   │   ├── ☕ Even_or_odd.java
+      │   │   ├── ☕ Final.java
+      │   │   ├── ☕ Maxnum.java
+      │   │   ├── ☕ N_objects.java
+      │   │   ├── ☕ Strings.java
+      │   │   ├── ☕ Student.java
+      │   │   ├── ☕ Test.java
+      │   │   ├── ☕ While.java
+      │   │   └── ☕ swaptwonumbers.java
+      │   ├── 📁 stringMethods/
+      │   │   ├── ☕ BlankandEmpty.java
+      │   │   ├── ☕ CharAt.java
+      │   │   ├── ☕ Compare.java
+      │   │   ├── ☕ Concatination.java
+      │   │   ├── ☕ ContainsMethod.java
+      │   │   ├── ☕ IndexMethods.java
+      │   │   ├── ☕ LengthofString.java
+      │   │   ├── ☕ SplitMethod.java
+      │   │   └── ☕ SubStrings.java
+      │   └── 📁 studentgradeproject/
+      │       ├── ☕ InvalidGradeException.java
+      │       ├── ☕ MainApp.java
+      │       └── ☕ Student.java
+      ├── 📄 .classpath 🚫 (auto-hidden)
+      ├── 🚫 .gitignore
+      ├── 📄 .project
+      └── 📖 README.md
 
 <!-- 
 ## 🚀 How to Run the Project
