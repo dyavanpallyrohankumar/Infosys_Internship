@@ -1,6 +1,6 @@
     # Compiled class files
     *.class
-
+/bin/
     # Jar, War, Ear files
     *.jar
     *.war
