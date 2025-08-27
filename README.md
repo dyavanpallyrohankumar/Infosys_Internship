@@ -18,30 +18,75 @@ This is a Java application developed using the Eclipse IDE.
       ├── 📁 .settings/ 🚫 (auto-hidden)
       ├── 📁 bin/ 🚫 (auto-hidden)
       ├── 📁 src/
+      │   ├── 📁 Notes/
+      │   │   └── 📝 19Aug2025.md
+      │   ├── 📁 Projects/
+      │   │   ├── 📁 Bank_Application_Using_Exceptionhandling/
+      │   │   │   ├── ☕ AccountLockedException.java
+      │   │   │   ├── ☕ Application.java
+      │   │   │   ├── ☕ BankingService.java
+      │   │   │   ├── ☕ InSufficientBalanceException.java
+      │   │   │   ├── ☕ InvalidCredintals.java
+      │   │   │   └── ☕ InvalidOperatorException.java
+      │   │   ├── 📁 Banking_Managment_System_with_Collections/
+      │   │   │   ├── ☕ BankAccountHolder.java
+      │   │   │   ├── ☕ BankManagmentSystemImp.java
+      │   │   │   ├── ☕ BankingManagmentSystem.java
+      │   │   │   └── ☕ Main.java
+      │   │   ├── 📁 Car_Manufacturing_Managment_System/
+      │   │   │   ├── ☕ Car.java
+      │   │   │   ├── ☕ CarDAO.java
+      │   │   │   ├── ☕ CarDAOimp.java
+      │   │   │   └── ☕ Main.java
+      │   │   ├── 📁 Cricket_Game_Simulation_Using_Inheritance_Concept/
+      │   │   │   ├── ☕ Batsman.java
+      │   │   │   ├── ☕ Bowler.java
+      │   │   │   ├── ☕ Crickter.java
+      │   │   │   ├── ☕ Main.java
+      │   │   │   └── ☕ WicketKeeper.java
+      │   │   ├── 📁 Library_Managment_System/
+      │   │   │   ├── ☕ Book.java
+      │   │   │   ├── ☕ LibraryManager.java
+      │   │   │   ├── ☕ LibraryOperations.java
+      │   │   │   └── ☕ LibrarySystem.java
+      │   │   ├── 📁 Movie_Management_System/
+      │   │   │   ├── ☕ MMS_execution.java
+      │   │   │   ├── ☕ Movie.java
+      │   │   │   ├── ☕ MovieOperations.java
+      │   │   │   ├── ☕ MoviesImp.java
+      │   │   │   └── ☕ SortbyRating.java
+      │   │   ├── 📁 Patient_Report_System/
+      │   │   │   ├── ☕ BloodReport.java
+      │   │   │   ├── ☕ Main.java
+      │   │   │   ├── ☕ PatientReport.java
+      │   │   │   └── ☕ XRayReport.java
+      │   │   ├── 📁 Student_Grade_Project/
+      │   │   │   ├── ☕ InvalidGradeException.java
+      │   │   │   ├── ☕ MainApp.java
+      │   │   │   └── ☕ Student.java
+      │   │   └── 📁 Student_Managment_System/
+      │   │       ├── ☕ Student.java
+      │   │       ├── ☕ StudentManager.java
+      │   │       ├── ☕ StudentManagmentSystem.java
+      │   │       └── ☕ StudentOperations.java
       │   ├── 📁 abstraction/
       │   │   └── ☕ Abstraction.java
       │   ├── 📁 backtracking/
       │   │   ├── ☕ SudokuBoard.java
       │   │   └── ☕ Suduko_solver.java
-      │   ├── 📁 bankapplicationexceptionhandling/
-      │   │   ├── ☕ AccountLockedException.java
-      │   │   ├── ☕ Application.java
-      │   │   ├── ☕ BankingService.java
-      │   │   ├── ☕ InSufficientBalanceException.java
-      │   │   ├── ☕ InvalidCredintals.java
-      │   │   └── ☕ InvalidOperatorException.java
       │   ├── 📁 collection_framework/
+      │   │   ├── 📁 Map/
+      │   │   ├── 📁 Set/
+      │   │   │   ├── ☕ SetImplementation.java
+      │   │   │   └── ☕ Task.java
       │   │   ├── 📁 Stack/
       │   │   │   └── ☕ PatientFormDemo.java
+      │   │   ├── ☕ AlltypesOfClasses.java
+      │   │   ├── ☕ FrequencyCounterChar.java
+      │   │   ├── ☕ LinearSearch.java
       │   │   ├── ☕ PatientBase.java
       │   │   ├── ☕ ShoppingCart.java
       │   │   └── ☕ Stack_implementaions.java
-      │   ├── 📁 cricketGameSimulationUsingInheritance/
-      │   │   ├── ☕ Batsman.java
-      │   │   ├── ☕ Bowler.java
-      │   │   ├── ☕ Crickter.java
-      │   │   ├── ☕ Main.java
-      │   │   └── ☕ WicketKeeper.java
       │   ├── 📁 db/
       │   │   └── ☕ DBconnection.java
       │   ├── 📁 exceptionhandling/
@@ -80,11 +125,6 @@ This is a Java application developed using the Eclipse IDE.
       │   │   └── ☕ Calculator.java
       │   ├── 📁 overriding/
       │   │   └── ☕ Methodoverriding.java
-      │   ├── 📁 patientreportsystem/
-      │   │   ├── ☕ BloodReport.java
-      │   │   ├── ☕ Main.java
-      │   │   ├── ☕ PatientReport.java
-      │   │   └── ☕ XRayReport.java
       │   ├── 📁 polymorphism/
       │   │   └── ☕ safeDownCasting.java
       │   ├── 📁 remaning/
@@ -100,20 +140,16 @@ This is a Java application developed using the Eclipse IDE.
       │   │   ├── ☕ Test.java
       │   │   ├── ☕ While.java
       │   │   └── ☕ swaptwonumbers.java
-      │   ├── 📁 stringMethods/
-      │   │   ├── ☕ BlankandEmpty.java
-      │   │   ├── ☕ CharAt.java
-      │   │   ├── ☕ Compare.java
-      │   │   ├── ☕ Concatination.java
-      │   │   ├── ☕ ContainsMethod.java
-      │   │   ├── ☕ IndexMethods.java
-      │   │   ├── ☕ LengthofString.java
-      │   │   ├── ☕ SplitMethod.java
-      │   │   └── ☕ SubStrings.java
-      │   └── 📁 studentgradeproject/
-      │       ├── ☕ InvalidGradeException.java
-      │       ├── ☕ MainApp.java
-      │       └── ☕ Student.java
+      │   └── 📁 stringMethods/
+      │       ├── ☕ BlankandEmpty.java
+      │       ├── ☕ CharAt.java
+      │       ├── ☕ Compare.java
+      │       ├── ☕ Concatination.java
+      │       ├── ☕ ContainsMethod.java
+      │       ├── ☕ IndexMethods.java
+      │       ├── ☕ LengthofString.java
+      │       ├── ☕ SplitMethod.java
+      │       └── ☕ SubStrings.java
       ├── 📄 .classpath 🚫 (auto-hidden)
       ├── 🚫 .gitignore
       ├── 📄 .project
