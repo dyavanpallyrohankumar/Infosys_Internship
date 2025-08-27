@@ -154,7 +154,7 @@ This is a Java application developed using the Eclipse IDE.
       ├── 🚫 .gitignore
       ├── 📄 .project
       └── 📖 README.md
-
+```
 <!-- 
 ## 🚀 How to Run the Project
 
