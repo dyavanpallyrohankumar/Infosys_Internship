@@ -54,7 +54,7 @@ on c.customer_id= o.customer_id ;
 
 select o.order_id,o.item,o.amount,c.customer_id,c.first_name,c.last_name
 from orders  o  join customers  c 
-using (customer_id)
+on c.customer_id= o.customer_id
 --group by c.customer_id,c.first_name,c.last_name
 order by o.order_id;
 
