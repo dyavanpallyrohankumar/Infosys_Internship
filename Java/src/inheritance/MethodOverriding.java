@@ -1,7 +1,7 @@
 package inheritance;
 
 class Addition {
-    
+
     void additionOfNumbers(int a, int b) {
         System.out.println("the addition is " + (a + b));
     }
@@ -9,7 +9,7 @@ class Addition {
 }
 
 class ADD2 extends Addition {
-  
+
     void additionOfNumbers(int a, int b) {
         System.out.println("the sub is " + (a - b));
     }
