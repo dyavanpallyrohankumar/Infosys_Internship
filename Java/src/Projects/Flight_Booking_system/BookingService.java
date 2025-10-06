@@ -6,47 +6,41 @@ import java.util.List;
 import java.util.Map;
 
 public class BookingService {
-
-    private final Map<String, Flight> flightsByNumber = new HashMap<String, Flight>();
+    final Map<String, Flight> flights = new HashMap<>();
     private final FlightValidator validator = new FlightValidator();
     private final PaymentService paymentService = new PaymentService();
 
-    public void addFlight(Flight f) {
-        flightsByNumber.put(f.getFlightNumber(), f);
+    void addFlight(Flight flight) {
+        flights.put(flight.getFlightNumber(), flight);
     }
 
-    public List<Flight> searchByDestination(String destination) {
-        List<Flight> res = new ArrayList<Flight>();
-        for (Flight f : flightsByNumber.values()) {
-            if (f.getDestination().equalsIgnoreCase(destination))
-                res.add(f);
+    List<Flight> searchByFlights = new ArrayList<>();
+
+    List<Flight> searchByDestination(String destination) {
+        List<Flight> res = new ArrayList<>();
+        for (Flight flight : flights.values()) {
+            if (flight.getFlightNumber().equalsIgnoreCase(destination)) {
+                res.add(flight);
+            }
         }
         return res;
     }
 
     public BookingReceipt book(String flightNumber, Passenger p) throws Exception {
-        // 1. validate passenger
         validator.validate(p);
 
-        // 2. find flight
-        Flight flight = flightsByNumber.get(flightNumber);
+        Flight flight = flights.get(flightNumber);
         if (flight == null) {
-            throw new IllegalArgumentException("Flight not found: " + flightNumber);
+            throw new IllegalArgumentException("Flight Not Found");
         }
 
-        // 3. allocate seat
-        String seatNum = flight.allocateSeat(p.getSeatClass()); // may throw NoSeatsAvailableException
+        String seatNum = flight.allocateSeat(p.getSeatClass());
         p.setSeatNumber(seatNum);
 
-        // 4. charge
-        int price = paymentService.charge(p.getSeatClass()); // may throw PaymentFailedException
-
-        // 5. persist booking in flight (in-memory)
+        double price = paymentService.charge(p.getSeatClass());
         flight.addPassenger(p);
 
-        // 6. create booking id (basic)
-        String bookingId = generateBookingId(flightNumber, seatNum);
-        return new BookingReceipt(bookingId, flightNumber, p.getName(), seatNum, price);
+        return new BookingReceipt(generateBookingId(flightNumber, seatNum), flightNumber, flightNumber, seatNum, price);
     }
 
     private String generateBookingId(String flightNumber, String seatNum) {

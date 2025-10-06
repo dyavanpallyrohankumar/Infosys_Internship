@@ -1,0 +1,52 @@
+Project Title: Student Course Management System
+
+Objective:
+
+To apply Object-Oriented Programming (OOP) concepts (Encapsulation, Inheritance, Polymorphism, Abstraction) and use Java Collection Framework to manage and process data dynamically with user inputs.
+
+🧱 Requirements & Functionalities:
+
+Classes & OOP Concepts
+
+Person (base class) → attributes: name, email
+
+Student (inherits Person) → attributes: studentId, coursesEnrolled (List<Course>)
+
+Course → attributes: courseId, courseName, credits
+
+Admin (inherits Person) → can add/remove courses
+
+ Demonstrates Inheritance, Encapsulation, Abstraction, and Polymorphism
+
+Collection Framework Usage
+
+Use HashMap<Integer, Student> to store students.
+
+Use ArrayList<Course> for course catalog.
+
+Use HashSet<String> to track unique course names.
+
+Use Iterator or forEach loop to display records.
+
+User Input & Operations (Console-based Menu)
+
+===== Student Course Management =====
+1. Add New Student
+2. Add New Course
+3. Enroll Student in a Course
+4. View All Students
+5. View All Courses
+6. Search Student by ID
+7. Exit
+
+
+➤ Use Scanner class for input
+➤ Handle exceptions (e.g., invalid input, missing student/course)
+
+Bonus Features (optional for advanced interns)
+
+Implement sorting (e.g., sort students by name or ID using Comparator or Comparable)
+
+Store course enrollment count in a Map<Course, Integer>
+
+Use LinkedHashMap to maintain insertion order
