@@ -35,25 +35,25 @@ public class Application {
 			sc.nextLine();
 			try {
 				switch (choice) {
-				case 1:
-					System.out.println("enter the amount to withdrawl");
-					double wamount = sc.nextDouble();
-					service.debitAmount(wamount);
-					break;
-				case 2:
-					System.out.println("enter the amount to Deposit");
-					int camount = sc.nextInt();
-					service.creditAmount(camount);
-					break;
-				case 3:
-					service.checkBalance();
-					break;
-				case 4:
-					System.out.println("thank you visit again");
-					return;
-				default:
-					System.out.println("enter proper input");
-					break;
+					case 1:
+						System.out.println("enter the amount to withdrawl");
+						double wamount = sc.nextDouble();
+						service.debitAmount(wamount);
+						break;
+					case 2:
+						System.out.println("enter the amount to Deposit");
+						int camount = sc.nextInt();
+						service.creditAmount(camount);
+						break;
+					case 3:
+						service.checkBalance();
+						break;
+					case 4:
+						System.out.println("thank you visit again");
+						return;
+					default:
+						System.out.println("enter proper input");
+						break;
 				}
 			} catch (Exception e) {
 				System.out.println(e.getMessage());

@@ -52,9 +52,9 @@ public class ShoppingCart {
                 case 4:
                     sc.close();
                     return;
-                   
+
                 default:
-                System.out.println("enter proper input");
+                    System.out.println("enter proper input");
                     break;
             }
 

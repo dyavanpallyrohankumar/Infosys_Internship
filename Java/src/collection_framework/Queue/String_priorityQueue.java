@@ -14,7 +14,7 @@ public class String_priorityQueue {
         System.out.println(pq);
         while (!pq.isEmpty()) {
             System.out.println("Polled element: " + pq.poll());
-            
+
         }
     }
 }

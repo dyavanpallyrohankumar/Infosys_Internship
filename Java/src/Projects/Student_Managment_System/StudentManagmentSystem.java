@@ -1,6 +1,5 @@
 package Projects.Student_Managment_System;
 
-
 import java.util.Scanner;
 
 public class StudentManagmentSystem {
@@ -9,7 +8,7 @@ public class StudentManagmentSystem {
                 "\n\n------------------Student Mangment System-------------------\n1.Add Student\n2.View all Students\n3.Search Student by ID\n4.Update Student Marks\n5.Delete Student\n6.Exit\nEnter Choice");
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         StudentOperations student = new StudentManager();
         while (true) {

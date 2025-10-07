@@ -2,9 +2,9 @@ package backtracking;
 
 class Suduko_Solver {
 
-// private static final int SIZE = 9;
+	// private static final int SIZE = 9;
 
-// private static final int EMPTY = 0;
+	// private static final int EMPTY = 0;
 
 	public static void main(String[] args) {
 

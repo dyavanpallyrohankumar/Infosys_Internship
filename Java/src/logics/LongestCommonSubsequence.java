@@ -23,25 +23,25 @@ public class LongestCommonSubsequence {
 }
 
 //
-//public class LongestCommonSubsequence {
+// public class LongestCommonSubsequence {
 //
-//	public static String LongestCommonPrefix(String str[]) {
-//		if (str == null || str.length == 0)
-//			return "";
-//		String common = str[0];
-//		for (int i = 1; i < 3; i++) {
-//			while (!common.startsWith(str[i])) {
-//				common = common.substring(0, common.length() - 1);
-//			}
-//			if (common.isEmpty()) {
-//				return "";
-//			}
-//		}
-//		return common;
-//	}
+// public static String LongestCommonPrefix(String str[]) {
+// if (str == null || str.length == 0)
+// return "";
+// String common = str[0];
+// for (int i = 1; i < 3; i++) {
+// while (!common.startsWith(str[i])) {
+// common = common.substring(0, common.length() - 1);
+// }
+// if (common.isEmpty()) {
+// return "";
+// }
+// }
+// return common;
+// }
 //
-//	public static void main(String[] args) {
-//		String str[] = { "flight", "flower", "flow" };
-//		System.out.println(LongestCommonPrefix(str));
-//	}
-//}
+// public static void main(String[] args) {
+// String str[] = { "flight", "flower", "flow" };
+// System.out.println(LongestCommonPrefix(str));
+// }
+// }

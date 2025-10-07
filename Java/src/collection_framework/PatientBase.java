@@ -31,7 +31,7 @@ class ListMethodsDemo {
 
         List<PatientBase> patients = new ArrayList<>();
         // Arrays.asList(p1,p2,p3);
-        patients.addAll( Arrays.asList(p1,p2,p3));
+        patients.addAll(Arrays.asList(p1, p2, p3));
         System.out.println(patients);
     }
 

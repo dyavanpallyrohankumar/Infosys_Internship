@@ -37,31 +37,31 @@ class Order {
 	public void setCashOnDelivery(boolean cashOnDelivery) {
 		this.cashOnDelivery = cashOnDelivery;
 	}
-	
+
 	@Override
 	public String toString() {
-		return "Order Id: "+getOrderId()+", Item names: "+getItemNames()+", Cash on delivery: "+isCashOnDelivery();
-	} 
+		return "Order Id: " + getOrderId() + ", Item names: " + getItemNames() + ", Cash on delivery: "
+				+ isCashOnDelivery();
+	}
 }
 
 public class ArrayList_Exercise_1 {
 
-// class Tester {
-    
-    public static List<String> getItems(List<Order> orders) {
-        List <String> allitems =new ArrayList<>();
-		 for (Order order : orders) {
-            // System.out.println(order.getItemNames());
-            for (String item : order.getItemNames()) {
-                // System.out.println(item);
-                allitems.add(item);
-            }
-         }
+	// class Tester {
 
-        
+	public static List<String> getItems(List<Order> orders) {
+		List<String> allitems = new ArrayList<>();
+		for (Order order : orders) {
+			// System.out.println(order.getItemNames());
+			for (String item : order.getItemNames()) {
+				// System.out.println(item);
+				allitems.add(item);
+			}
+		}
+
 		return allitems;
 	}
-    
+
 	public static void main(String[] args) {
 		List<Order> orders = new ArrayList<Order>();
 

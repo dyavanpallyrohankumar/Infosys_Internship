@@ -30,7 +30,8 @@ public class AlltypesOfClasses {
         treesetObject.add("Google");
 
         System.out.println(hashsetObject); // [Google, Infosys, IBM, Zoho, Capgemini]
-        System.out.println(linkedhashsetObject);// [Zoho, Infosys, Capgemini, IBM, Google] this is the order of insertion
+        System.out.println(linkedhashsetObject);// [Zoho, Infosys, Capgemini, IBM, Google] this is the order of
+                                                // insertion
         System.out.println(treesetObject);// [Capgemini, Google, IBM, Infosys, Zoho]
 
     }

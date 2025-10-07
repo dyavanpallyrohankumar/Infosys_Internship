@@ -2,7 +2,6 @@ package Relations_in_java;
 
 class Engine {
 
-    
 }
 
 class Car {
@@ -10,5 +9,5 @@ class Car {
 }
 
 public class Composition {
-    
+
 }

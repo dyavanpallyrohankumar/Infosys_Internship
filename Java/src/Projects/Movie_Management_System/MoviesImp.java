@@ -42,7 +42,7 @@ public class MoviesImp implements MovieOperations {
         for (String cat : movieMap.keySet()) {
 
             List<Movie> movies = movieMap.get(cat);
-            Collections.sort(movies,new SortbyRating());
+            Collections.sort(movies, new SortbyRating());
             System.out.println("Category " + cat);
             for (Movie movie : movies) {
                 System.out.println("  " + movie);

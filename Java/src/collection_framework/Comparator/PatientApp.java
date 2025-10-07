@@ -62,7 +62,7 @@ public class PatientApp {
         List<Patient> patients = new ArrayList<>();
         System.out.println("Enter number of patients:");
         int n = sc.nextInt();
-        sc.nextLine(); 
+        sc.nextLine();
         while (true) {
 
             for (int i = 0; i < n; i++) {
@@ -74,11 +74,11 @@ public class PatientApp {
                 int age = sc.nextInt();
                 System.out.println("Enter patient severity:");
                 int severity = sc.nextInt();
-                sc.nextLine(); 
+                sc.nextLine();
 
                 patients.add(new Patient(id, name, age, severity));
             }
-            
+
             break;
 
         }

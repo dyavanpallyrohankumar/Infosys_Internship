@@ -16,8 +16,8 @@ public class Main {
 		keeping.getDetails();
 		keeping.keepWickets();
 		keeping.play();
-// bowling.setWickets(4);
-// batting.setTotalRuns (12);
-// keeping.setStumpings (2);
+		// bowling.setWickets(4);
+		// batting.setTotalRuns (12);
+		// keeping.setStumpings (2);
 	}
 }

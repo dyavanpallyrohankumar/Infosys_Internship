@@ -1,4 +1,5 @@
 package remaning;
+
 import java.util.Scanner;
 
 class Course {
@@ -55,7 +56,7 @@ public class N_objects {
 				i++;
 			} else {
 				System.out.println("the details are \n");
-				
+
 				for (int j = 1; j < 10; j++) {
 					System.out.println(course[j]);
 				}

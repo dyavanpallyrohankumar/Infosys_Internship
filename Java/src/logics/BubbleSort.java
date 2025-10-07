@@ -6,7 +6,7 @@ public class BubbleSort {
 
     public static void bubbleSorting(int array[]) {
         for (int i = 0; i < array.length - 1; i++) {
-            System.out.println("=="+i+"==");
+            System.out.println("==" + i + "==");
             for (int j = 0; j < array.length - i - 1; j++) {
                 System.out.println("==" + j + "==");
                 if (array[j] > array[j + 1]) {

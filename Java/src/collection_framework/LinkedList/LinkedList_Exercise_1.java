@@ -12,7 +12,7 @@ public class LinkedList_Exercise_1 {
         for (Object object : listOne) {
             concatenateList.add(object);
         }
-        for (int i = listTwo.size()-1; i >-1; i--) {
+        for (int i = listTwo.size() - 1; i > -1; i--) {
             concatenateList.add(listTwo.get(i));
         }
 

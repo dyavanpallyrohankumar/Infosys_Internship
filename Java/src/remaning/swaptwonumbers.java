@@ -1,4 +1,5 @@
 package remaning;
+
 import java.util.Scanner;
 
 public class swaptwonumbers {

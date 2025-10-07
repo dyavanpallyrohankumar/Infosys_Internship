@@ -47,7 +47,7 @@ public class HMSApp extends Exception {
                 case 3:
                     // 3.3 Assign Patient to Doctor
                     System.out.println("Enter the Doctor ID");
-                    int adid=sc.nextInt();
+                    int adid = sc.nextInt();
                     System.out.println("Enter the Patient ID");
                     int apid = sc.nextInt();
                     hospital.assignDoctor(adid, apid);

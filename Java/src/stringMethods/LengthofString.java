@@ -6,7 +6,6 @@ public class LengthofString {
         // length of the string
         demoOfLenthMethod(str);
 
-
         System.out.println(str.substring(2, 4));
 
         System.out.println(str.equals("hello world"));
@@ -15,7 +14,7 @@ public class LengthofString {
         System.out.println(str.toLowerCase());
         System.out.println("flow".startsWith("flower"));
         System.out.println(str.endsWith("d"));
-    
+
         System.out.println(str.replace("World", "rohan"));
     }
 

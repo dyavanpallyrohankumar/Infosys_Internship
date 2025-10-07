@@ -1,10 +1,9 @@
 package Projects.Student_Managment_System;
 
 public interface StudentOperations {
-    public void addStudent(int rollno, String sname, int marks) ;
+    public void addStudent(int rollno, String sname, int marks);
 
     public void displayAll();
-
 
     void searchByRollno(int rollNo);
 

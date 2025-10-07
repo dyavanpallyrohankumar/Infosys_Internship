@@ -42,23 +42,24 @@ public class Book {
 
 }
 
-
 // Description About Project
-// This is Program about the Library management system where we can perform operations like
+// This is Program about the Library management system where we can perform
+// operations like
 // 1.Add Book
-// 	used to add new books
+// used to add new books
 
 // 2.View all Books
-// 	it will print all the books present in the library
+// it will print all the books present in the library
 
 // 3.Search Book by ID
-// 	this function used to search the book based on the id which is given to book
+// this function used to search the book based on the id which is given to book
 
 // 4.Remove Book
-// 	this operation is used to delete the books by the id specified
+// this operation is used to delete the books by the id specified
 
 // 5.View Unique Authors
-// 	this is the list of authors displayed on console
- 
+// this is the list of authors displayed on console
+
 // 6.View Books Grouped by Author
-// 	this is based on mapping the author name with the books specified with that author 
+// this is based on mapping the author name with the books specified with that
+// author

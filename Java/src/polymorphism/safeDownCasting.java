@@ -28,15 +28,15 @@ public class safeDownCasting {
 
         if (a instanceof Dog) {
             Dog d = (Dog) a;// here we are doing downcasting
-            d.number=10000;
+            d.number = 10000;
             System.out.println("Downcasting done safely and sucessfully");
         }
     }
 }
 
-
-// The instanceof keyword is used to test whether an object is an instance of a specific class or subclass.
-// 📌 Syntax:     object instanceof ClassName
+// The instanceof keyword is used to test whether an object is an instance of a
+// specific class or subclass.
+// 📌 Syntax: object instanceof ClassName
 
 // Returns true if object is an instance of ClassName or a subclass.
 // Returns false otherwise.
@@ -44,4 +44,5 @@ public class safeDownCasting {
 
 // 🧠 Why Use instanceof?
 // Mostly for safe downcasting.
-// If you try to downcast without checking the type, you risk a ClassCastException at runtime.
+// If you try to downcast without checking the type, you risk a
+// ClassCastException at runtime.

@@ -36,7 +36,6 @@ class PaymentFailedException extends Exception {
     }
 }
 
-
 public class Custom_Exceptions extends Exception {
 
     public Custom_Exceptions(String msg) {

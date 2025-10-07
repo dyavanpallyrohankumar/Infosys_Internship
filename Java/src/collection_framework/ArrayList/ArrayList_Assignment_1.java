@@ -1,6 +1,5 @@
 package collection_framework.ArrayList;
 
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -48,12 +47,12 @@ class Participant {
 }
 
 public class ArrayList_Assignment_1 {
-// class Tester {
+    // class Tester {
 
     public static List<Participant> generateListOfFinalists(Participant[] finalists) {
-        List <Participant> ListOfFinalists= new ArrayList<>();
+        List<Participant> ListOfFinalists = new ArrayList<>();
         for (Participant participant : finalists) {
-            ListOfFinalists.add(participant) ;
+            ListOfFinalists.add(participant);
         }
         // Implement your logic here and change the return statement accordingly
         return ListOfFinalists;
@@ -61,7 +60,7 @@ public class ArrayList_Assignment_1 {
 
     public static List<Participant> getFinalistsByTalent(List<Participant> finalists, String talent) {
         // Implement your logic here and change the return statement accordingly
-       List <Participant> FinalistsByTalent = new ArrayList<>();
+        List<Participant> FinalistsByTalent = new ArrayList<>();
         for (Participant participant : finalists) {
             if (participant.getParticipantTalent().equals(talent)) {
                 FinalistsByTalent.add(participant);

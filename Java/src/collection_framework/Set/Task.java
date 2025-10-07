@@ -13,9 +13,6 @@ public class Task {
         // alltypes.add("A");
         // System.out.println(alltypes);
 
-
-
-
         Set<Object> alltypes = new HashSet<>();
         alltypes.add("PMIS"); // String
         alltypes.add(6578); // Integer
@@ -26,9 +23,8 @@ public class Task {
         System.out.println(alltypes);
 
         for (Object object : alltypes) {
-            System.out.println(object+" is  "+object.getClass().getSimpleName());
+            System.out.println(object + " is  " + object.getClass().getSimpleName());
         }
 
     }
 }
-

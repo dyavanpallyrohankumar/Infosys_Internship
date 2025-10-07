@@ -1,9 +1,7 @@
 package Relations_in_java;
 
-
 // Aggregation is a has-a relation 
 // one class contains the reference of another class but the contained object can exist independently of the container 
-
 
 class Teacher {
     String name;
@@ -26,7 +24,7 @@ class Department {
 }
 
 public class Aggregation {
-public static void main(String[] args) {
-    
-}
+    public static void main(String[] args) {
+
+    }
 }

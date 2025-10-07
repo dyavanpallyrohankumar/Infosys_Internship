@@ -12,7 +12,7 @@ public class HashMap_Assignment_2 {
         Map<String, Integer> mergeMap = new HashMap<>();
         // mergeMap.putAll(mapOne);
         // mergeMap.putAll(mapTwo);
-           
+
         return mergeMap;
 
     }

@@ -53,15 +53,15 @@ public class RE {
             System.out.println("invalid");
         }
     }
-    
+
     // public static void checklengthBetween5_12() {
-    //     Scanner sc = new Scanner(System.in);
-    //     String input = sc.nextLine();
-    //     if (input.matches("[a-zA-Z0-9]{5,12}")) {
-    //         System.out.println("Contains the length between 5 to 12");
-    //     } else {
-    //         System.out.println("invalid");
-    //     }
+    // Scanner sc = new Scanner(System.in);
+    // String input = sc.nextLine();
+    // if (input.matches("[a-zA-Z0-9]{5,12}")) {
+    // System.out.println("Contains the length between 5 to 12");
+    // } else {
+    // System.out.println("invalid");
+    // }
     // }
 
     public static void main(String[] args) {

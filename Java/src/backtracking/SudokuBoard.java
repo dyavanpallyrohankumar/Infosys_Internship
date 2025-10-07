@@ -31,8 +31,8 @@ class SudokuBoard {
 
     private boolean isSafe(int row, int col, int num) {
         return isRowSafe(row, num) &&
-               isColSafe(col, num) &&
-               isBoxSafe(row - row % 3, col - col % 3, num);
+                isColSafe(col, num) &&
+                isBoxSafe(row - row % 3, col - col % 3, num);
     }
 
     private boolean isRowSafe(int row, int num) {

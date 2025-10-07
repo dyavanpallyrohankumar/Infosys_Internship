@@ -1,11 +1,9 @@
 package collection_framework.Set;
+
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Set;
 import java.util.TreeSet;
-
-
-    
 
 public class HashsetImp {
     public static void main(String[] args) {
@@ -19,8 +17,6 @@ public class HashsetImp {
         food.add("Noodles");
         System.out.println("HashSet output without the duplicates: ");
         System.out.println(food);
-
-
 
         Set<String> food1 = new LinkedHashSet<String>();
         food1.add("Pasta"); // Adding elements to the HashSet
@@ -43,4 +39,3 @@ public class HashsetImp {
         System.out.println(fod1);
     }
 }
-

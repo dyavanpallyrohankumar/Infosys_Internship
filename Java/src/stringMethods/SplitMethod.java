@@ -16,11 +16,10 @@ public class SplitMethod {
         String indname[] = names.split("\\|");
         System.out.println("before split  " + names);
         System.out.println("Splits");
-        
+
         for (int i = 0; i < indname.length; i++) {
             System.out.println(indname[i]);
         }
     }
 
 }
-

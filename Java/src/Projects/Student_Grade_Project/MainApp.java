@@ -9,17 +9,16 @@ public class MainApp {
         try {
             System.out.println("enter student name");
             String name = sc.nextLine();
-      
+
             System.out.println("enter thhe marks");
             int marks = sc.nextInt();
             @SuppressWarnings("unused")
-			Student std = new Student(name, marks);
+            Student std = new Student(name, marks);
 
         } catch (InvalidGradeException e) {
             System.err.println(e.getMessage());
             sc.close();
         }
-        
 
     }
 }

@@ -7,12 +7,12 @@ public class StudentManager implements StudentOperations {
     List<Student> studentObjects = new ArrayList<>();
 
     @Override
-    public void addStudent(int rollno, String sname, int marks){
+    public void addStudent(int rollno, String sname, int marks) {
         Student std = new Student(rollno, sname, marks);
         for (Student student : studentObjects) {
-            if (student.getRollno()==rollno) {
+            if (student.getRollno() == rollno) {
                 System.out.println("alredy there is a rollnumber present change it");
-                
+
             }
         }
         studentObjects.add(std);
@@ -23,7 +23,7 @@ public class StudentManager implements StudentOperations {
         for (Student student : studentObjects) {
             System.out.println(student);
         }
-       
+
     }
 
     @Override
