@@ -16,11 +16,30 @@ This is a Java application developed using the Eclipse IDE.
 ├── 📁 Java Training/
       ├── 📁 .git/ 🚫 (auto-hidden)
       ├── 📁 .settings/ 🚫 (auto-hidden)
+      ├── 📁 .vscode/ 🚫 (auto-hidden)
       ├── 📁 bin/ 🚫 (auto-hidden)
       ├── 📁 src/
+      │   ├── 📁 Genric_Implementation/
+      │   │   ├── ☕ Genric_methods.java
+      │   │   ├── ☕ PatientImplementation.java
+      │   │   └── ☕ Status.java
+      │   ├── 📁 Multithreading_and_Thread_Safety/
+      │   │   ├── 📁 Bank_ATM_system/
+      │   │   │   ├── ☕ ATM.java
+      │   │   │   ├── ☕ Account.java
+      │   │   │   └── ☕ BankSimulation.java
+      │   │   └── ☕ ThreadSafeLibrary.java
       │   ├── 📁 Notes/
-      │   │   └── 📝 19Aug2025.md
+      │   │   ├── 📝 10Sept2025.md
+      │   │   ├── 📝 19Aug2025.md
+      │   │   ├── 📝 25Aug2025.md
+      │   │   ├── 📝 Java_Basics.md
+      │   │   └── 📝 Notes.md
       │   ├── 📁 Projects/
+      │   │   ├── 📁 Airport_CheckIn_System_Using_PriorityQueue/
+      │   │   │   ├── ☕ CompareMethod.java
+      │   │   │   ├── 📄 Intern Exercise Airport Check-in System Using PriorityQueue.docx
+      │   │   │   └── ☕ Passenger.java
       │   │   ├── 📁 Bank_Application_Using_Exceptionhandling/
       │   │   │   ├── ☕ AccountLockedException.java
       │   │   │   ├── ☕ Application.java
@@ -33,6 +52,8 @@ This is a Java application developed using the Eclipse IDE.
       │   │   │   ├── ☕ BankManagmentSystemImp.java
       │   │   │   ├── ☕ BankingManagmentSystem.java
       │   │   │   └── ☕ Main.java
+      │   │   ├── 📁 Browser_History_Using_ArrayDeque/
+      │   │   │   └── 📄 Intern Exercise Browser History Using ArrayDeque.docx
       │   │   ├── 📁 Car_Manufacturing_Managment_System/
       │   │   │   ├── ☕ Car.java
       │   │   │   ├── ☕ CarDAO.java
@@ -44,6 +65,24 @@ This is a Java application developed using the Eclipse IDE.
       │   │   │   ├── ☕ Crickter.java
       │   │   │   ├── ☕ Main.java
       │   │   │   └── ☕ WicketKeeper.java
+      │   │   ├── 📁 Flight_Booking_system/
+      │   │   │   ├── ☕ BookingReceipt.java
+      │   │   │   ├── ☕ BookingService.java
+      │   │   │   ├── ☕ Custom_Exceptions.java
+      │   │   │   ├── ☕ Flight.java
+      │   │   │   ├── ☕ FlightBookingApp.java
+      │   │   │   ├── ☕ FlightValidator.java
+      │   │   │   ├── ☕ Passenger.java
+      │   │   │   ├── ☕ PaymentService.java
+      │   │   │   ├── ☕ SeatClass.java
+      │   │   │   └── 📄 real-feeling Flight Booking mini-app.docx
+      │   │   ├── 📁 Hospital_Management_System/
+      │   │   │   ├── ☕ Doctor.java
+      │   │   │   ├── 📝 Guide.md
+      │   │   │   ├── ☕ HMS.java
+      │   │   │   ├── ☕ HMSApp.java
+      │   │   │   ├── ☕ HMS_Imp.java
+      │   │   │   └── ☕ Patient.java
       │   │   ├── 📁 Library_Managment_System/
       │   │   │   ├── ☕ Book.java
       │   │   │   ├── ☕ LibraryManager.java
@@ -55,6 +94,8 @@ This is a Java application developed using the Eclipse IDE.
       │   │   │   ├── ☕ MovieOperations.java
       │   │   │   ├── ☕ MoviesImp.java
       │   │   │   └── ☕ SortbyRating.java
+      │   │   ├── 📁 Ola_Booking_System_Using_Collections/
+      │   │   │   └── 📄 Intern Exercise Ola Booking System Using Collections.docx
       │   │   ├── 📁 Patient_Report_System/
       │   │   │   ├── ☕ BloodReport.java
       │   │   │   ├── ☕ Main.java
@@ -64,23 +105,70 @@ This is a Java application developed using the Eclipse IDE.
       │   │   │   ├── ☕ InvalidGradeException.java
       │   │   │   ├── ☕ MainApp.java
       │   │   │   └── ☕ Student.java
-      │   │   └── 📁 Student_Managment_System/
-      │   │       ├── ☕ Student.java
-      │   │       ├── ☕ StudentManager.java
-      │   │       ├── ☕ StudentManagmentSystem.java
-      │   │       └── ☕ StudentOperations.java
+      │   │   ├── 📁 Student_Managment_System/
+      │   │   │   ├── ☕ Student.java
+      │   │   │   ├── ☕ StudentManager.java
+      │   │   │   ├── ☕ StudentManagmentSystem.java
+      │   │   │   └── ☕ StudentOperations.java
+      │   │   └── 📁 Tirupati_Darshan_Booking_System/
+      │   │       ├── ☕ Application.java
+      │   │       ├── ☕ Booking.java
+      │   │       ├── ☕ DarshanBookingSystem.java
+      │   │       ├── ☕ DarshanManager_Interface.java
+      │   │       ├── ☕ Devotee.java
+      │   │       └── ☕ Type.java
+      │   ├── 📁 RegularExpression/
+      │   │   └── ☕ RE.java
+      │   ├── 📁 Relations_in_java/
+      │   │   ├── ☕ Aggregation.java
+      │   │   ├── ☕ Association.java
+      │   │   └── ☕ Composition.java
       │   ├── 📁 abstraction/
       │   │   └── ☕ Abstraction.java
       │   ├── 📁 backtracking/
       │   │   ├── ☕ SudokuBoard.java
       │   │   └── ☕ Suduko_solver.java
       │   ├── 📁 collection_framework/
+      │   │   ├── 📁 ArrayList/
+      │   │   │   ├── 📄 Array Operations in Java.docx
+      │   │   │   ├── ☕ ArrayList_Assignment_1.java
+      │   │   │   ├── ☕ ArrayList_Exercise_1.java
+      │   │   │   ├── ☕ Arraysort.java
+      │   │   │   ├── 📄 MCQs on Array.docx
+      │   │   │   └── ☕ Main.java
+      │   │   ├── 📁 Comparator/
+      │   │   │   ├── ☕ PatientApp.java
+      │   │   │   └── ☕ SeverityComparator.java
+      │   │   ├── 📁 LinkedList/
+      │   │   │   ├── 📄 Linked List.docx
+      │   │   │   ├── ☕ LinkedListOperations.java
+      │   │   │   ├── ☕ LinkedList_Assignment_1.java
+      │   │   │   ├── ☕ LinkedList_Assignment_2.java
+      │   │   │   ├── ☕ LinkedList_Assignment_3.java
+      │   │   │   ├── ☕ LinkedList_Assignment_4.java
+      │   │   │   ├── ☕ LinkedList_Exercise_1.java
+      │   │   │   └── ☕ Node.java
       │   │   ├── 📁 Map/
+      │   │   │   ├── ☕ HahMap_Assignment_2.java
+      │   │   │   ├── ☕ HashMap_Assignment_1.java
+      │   │   │   ├── ☕ HashMap_Assignment_3.java
+      │   │   │   └── ☕ HashMap_Exercise_1.java
+      │   │   ├── 📁 Queue/
+      │   │   │   ├── ☕ Access_in_ArrayDequeue.java
+      │   │   │   ├── ☕ Add_in_Dequeue.java
+      │   │   │   ├── ☕ ArrayDequeExample.java
+      │   │   │   ├── ☕ PriorityQueueEX.java
+      │   │   │   └── ☕ String_priorityQueue.java
       │   │   ├── 📁 Set/
+      │   │   │   ├── ☕ HashsetImp.java
       │   │   │   ├── ☕ SetImplementation.java
+      │   │   │   ├── ☕ Set_Interface_Assignment_1.java
+      │   │   │   ├── ☕ Set_Interface_Exercise_1.java
       │   │   │   └── ☕ Task.java
       │   │   ├── 📁 Stack/
-      │   │   │   └── ☕ PatientFormDemo.java
+      │   │   │   ├── ☕ PatientFormDemo.java
+      │   │   │   ├── 📄 Stack using Array.docx
+      │   │   │   └── ☕ Stack.java
       │   │   ├── ☕ AlltypesOfClasses.java
       │   │   ├── ☕ FrequencyCounterChar.java
       │   │   ├── ☕ LinearSearch.java
@@ -106,13 +194,17 @@ This is a Java application developed using the Eclipse IDE.
       │   │   └── ☕ test.java
       │   ├── 📁 inheritance/
       │   │   ├── ☕ MethodOverloading.java
+      │   │   ├── ☕ MethodOverriding.java
       │   │   └── ☕ MultilevelInheritance.java
       │   ├── 📁 interfaceProjects/
       │   │   ├── ☕ Main.java
       │   │   └── ☕ SmartHomeController.java
       │   ├── 📁 logics/
+      │   │   ├── ☕ BubbleSort.java
       │   │   ├── ☕ Factorial.java
+      │   │   ├── ☕ FibonacciSeries.java
       │   │   ├── ☕ LandSofArray.java
+      │   │   ├── ☕ LinearSearch.java
       │   │   ├── ☕ LongestCommonSubsequence.java
       │   │   ├── ☕ Palindrome.java
       │   │   ├── ☕ PrimeNo.java
@@ -133,6 +225,7 @@ This is a Java application developed using the Eclipse IDE.
       │   │   ├── ☕ Enums.java
       │   │   ├── ☕ Even_or_odd.java
       │   │   ├── ☕ Final.java
+      │   │   ├── ☕ HelloWorld.java
       │   │   ├── ☕ Maxnum.java
       │   │   ├── ☕ N_objects.java
       │   │   ├── ☕ Strings.java
@@ -154,6 +247,7 @@ This is a Java application developed using the Eclipse IDE.
       ├── 🚫 .gitignore
       ├── 📄 .project
       └── 📖 README.md
+
 ```
 <!-- 
 ## 🚀 How to Run the Project
