@@ -57,6 +57,44 @@ class Student {
 }
 
 public class StudentApp {
+    // public static void main(String[] args) {
+    // List<Student> list = new ArrayList<>();
+    // Student s1 = new Student("Alice", "Female", "Computer Science", 20);
+    // Student s2 = new Student("Bob", "Male", "Mathematics", 22);
+    // Student s3 = new Student("Charlie", "Male", "Physics", 21);
+    // Student s4 = new Student("Deepak", "Male", "Chemistry", 23);
+    // Student s5 = new Student("Eve", "Female", "Biology", 20);
+    // Student[] students = { s1, s2, s3, s4, s5 };
+    // for (Student student : students) {
+    // list.add(student);
+    // }
+    // System.out.println("sorting by age");
+    // list.sort(new sorting_by_age());
+
+    // for (Student studentss : list) {
+    // System.out.println(studentss);
+    // }
+    // System.out.println("sorting by name");
+    // list.sort((o1, o2) -> o1.getName().compareTo(o2.getName()));
+
+    // for (Student studentss : list) {
+    // System.out.println(studentss);
+    // }
+    // System.out.println("sorting by name length");
+    // list.sort(new sorting_by_nameLength());
+
+    // for (Student studentss : list) {
+    // System.out.println(studentss);
+    // }
+    // System.out.println("sorting by department");
+    // list.sort(new sorting_by_dept());
+
+    // for (Student studentss : list) {
+    // System.out.println(studentss);
+    // }
+
+    // }
+
     public static void main(String[] args) {
         List<Student> list = new ArrayList<>();
         Student s1 = new Student("Alice", "Female", "Computer Science", 20);
@@ -69,25 +107,25 @@ public class StudentApp {
             list.add(student);
         }
         System.out.println("sorting by age");
-        list.sort(new sorting_by_age());
+        list.sort((o1, o2) -> o2.getAge() - o1.getAge());
 
         for (Student studentss : list) {
             System.out.println(studentss);
         }
         System.out.println("sorting by name");
-        list.sort(new sorting_by_name());
+        list.sort((o1, o2) -> o1.getName().compareTo(o2.getName()));
 
         for (Student studentss : list) {
             System.out.println(studentss);
         }
         System.out.println("sorting by name length");
-        list.sort(new sorting_by_nameLength());
+        list.sort((o1, o2) -> o1.getName().length() - o2.getName().length());
 
         for (Student studentss : list) {
             System.out.println(studentss);
         }
         System.out.println("sorting by department");
-        list.sort(new sorting_by_dept());
+        list.sort((o1, o2) -> o1.getDepartment().compareTo(o2.getDepartment()));
 
         for (Student studentss : list) {
             System.out.println(studentss);
